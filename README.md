@@ -14,5 +14,6 @@ nodemon index.js
 ##requisitos
 
 mongodb e node
-mogo - servidor
-mongod - banco de dados
+### start no bd
+mongo ( sobe o banco de dados)
+mongod - (abre o banco de dados)

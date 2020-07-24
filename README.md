@@ -1,18 +1,18 @@
 # api-cad-cliente
 
 ```
-npm install
+> npm install
 ```
 
 ### start na api
 
 ```
-node index.js
+> node index.js
 ```
 
 ou
 ```
-nodemon index.js
+> nodemon index.js
 ```
 
 ## requisitos
@@ -20,7 +20,13 @@ nodemon index.js
 mongodb e node
 ### start no bd
 ```
-mongo  - (abre o banco de dados - shell)
+//Sobe o banco de dados
+> mongod 
+```
+
+```
+// Abre o banco de dados - shell
+> mongo  
 
 //alguns comandos
 
@@ -30,12 +36,7 @@ show collections // mostra as "tabelas"
 db.nomedatabela.find() //mostra o conteúdo de uma "tabela"
 db.nomedatabela.find("email":"email@emal.com") //especifico
 
-
 ```
-```
-mongod - ( sobe o banco de dados) 
-```
-
 ## POST - Cadastro
 ```
 http://localhost:8081/autenticacao/registro

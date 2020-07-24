@@ -12,7 +12,7 @@ const ClienteSchema = new Schema({
         require: true
     },
     nascimento:{
-        type: Date,
+        type: String,
         require: true
     },
     sexo:{

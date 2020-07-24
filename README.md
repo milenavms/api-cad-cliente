@@ -6,6 +6,9 @@ npm install
 ## start
 
 node index.js
+
+ou
+
 nodemon index.js
 
 ##requisitos

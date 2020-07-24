@@ -20,10 +20,20 @@ nodemon index.js
 mongodb e node
 ### start no bd
 ```
-mongo ( sobe o banco de dados)
+mongo  - (abre o banco de dados - shell)
+
+//alguns comandos
+
+show databases; //mostra os db
+use nomedodbespefico; // seleciona o banco
+show collections // mostra as "tabelas"
+db.nomedatabela.find() //mostra o conteúdo de uma "tabela"
+db.nomedatabela.find("email":"email@emal.com") //especifico
+
+
 ```
 ```
-mongod - (abre o banco de dados)
+mongod - ( sobe o banco de dados) 
 ```
 
 ## POST - Cadastro

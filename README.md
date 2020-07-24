@@ -18,7 +18,7 @@ mongodb e node
 mongo ( sobe o banco de dados)
 mongod - (abre o banco de dados)
 
-##post
+## POST
 
 http://localhost:8081/autenticacao/registro
 

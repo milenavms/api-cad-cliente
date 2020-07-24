@@ -64,3 +64,15 @@ http://localhost:8081/autenticacao/entrar
     "senha": "123456"
 }
 ```
+
+## GET - Perfil do Usuário
+
+```
+http://localhost:8081/projeto/perfil
+```
+#### Headers  - Authorization (Bearer + token)
+```
+Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVmMTc4ZjEyYjVjMDJkODEyYzc3NTEyOCIsImlhdCI6MTU5NTM3OTk1NiwiZXhwIjoxNTk1NDY2MzU2fQ.vLHb84SON7-u63I4WeODRMZzR-4ocn3cCIRUQlxSUG8
+```
+
+

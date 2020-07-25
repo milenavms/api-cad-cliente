@@ -1,24 +1,32 @@
 # api-cad-cliente
 
-```
-> npm install
-```
+### Overview
 
-### start na api
+ - Esta apresentas asseguintes funcionalidades.
+ 1 - Cadastro
+ 2 - Login
+ 
+ ### Detalhes
+ 
+ - A aplicação foi desenvolvida em Nodejs 
+ - O banco de Dados utilizado foi Mongodb
+ - Foi utilizado o Postman
+ 
+ 
+  ### requisitos
+1 - mongodb 
+2 - nodeJS
+ 
+  ### Executando
+ 
+ - Baixar do projeto
+ - Abrir com o projeto
+ - start na aplicação
 
 ```
-> node index.js
+> node index.js ou nodemon index.js
 ```
-
-ou
-```
-> nodemon index.js
-```
-
-## requisitos
-
-mongodb e node
-### start no bd
+- start no banco de dados 
 ```
 //Sobe o banco de dados
 > mongod 
@@ -26,8 +34,10 @@ mongodb e node
 
 ```
 // Abre o banco de dados - shell
-> mongo  
+> mongo 
+```
 
+```
 //alguns comandos
 
 show databases; //mostra os db
